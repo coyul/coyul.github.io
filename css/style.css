@@ -1,0 +1,158 @@
+body{
+    font-size:24px;
+	font-family:'PT Sans Narrow', sans-serif;
+	background:black url('../img/layout.jpg') no-repeat 50% 0;
+	background-size:cover;
+}
+
+.layout-center-wrapper{
+	width:80%;
+	padding:0 1%;
+	margin:0 auto;
+	
+}
+.layout-center-wrapper:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+header{
+	padding:1% 0;
+	background:black;
+	color:white;
+}
+
+.green-header{
+	padding:1% 0;
+	background:#00574B;
+}
+
+.text-section{
+	min-height:200px;
+	margin:4% auto;
+	color:white;
+}
+
+.text-section a{
+    color:white;
+}
+
+.text-section a:hover{
+    background:rgba(103, 78, 167, 0.8);
+    transition: background-color 0.2s ease;
+   	color:black;
+}
+
+.text-section-simple-link{
+    min-height:200px;
+    margin:4% auto;
+    color:white;
+}
+
+.text-section-simple-link a:hover{
+    background:transparent;
+}
+
+
+.interest-item{
+	display:inline-block;
+	float:left;
+	box-sizing:border-box;
+	width:30%;
+	margin-top:2%;
+	margin-left:5%;
+	padding-bottom:2%;
+	transition: background-color 0.3s ease;
+	text-align: center;
+}
+
+.interest-item img{
+	width:50%;
+}
+
+.interest-item p{
+	margin:1%;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+}
+
+.interest-item:hover{
+	background:rgba(103, 78, 167, 0.8);
+}
+
+.interest-item:hover >p{
+	color:black;
+}
+
+.interest-item:first-child{
+	margin-left:0;
+}
+
+
+.interest-section::after{
+	content:'';
+	display:table;
+	clear:both;
+	margin-bottom:7%;
+}
+
+footer{
+	padding:0.5% 0;
+	background:black;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color:white;
+}
+
+.footer-social .social-btn{
+	display:inline-block;
+	width:32px;
+	height:32px;
+}
+
+.footer-social .email{
+	background:url("../img/email.png") no-repeat;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.custom-button {
+    background-color: #00574B;
+    padding: 20px 40px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button a {
+    text-decoration:none;
+    color: #fff;
+    font-size:24px;
+}
+
+.custom-button:hover {
+    background-color: #003e35;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
