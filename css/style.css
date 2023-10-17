@@ -78,7 +78,6 @@ header{
 	color:white;
 	text-align:center;
 	text-decoration:none;
-	font-size:20px;
 }
 
 .interest-item:hover{
@@ -93,6 +92,9 @@ header{
 	margin-left:0;
 }
 
+.interest-section {
+    margin-bottom:10%;
+}
 
 .interest-section::after{
 	content:'';
@@ -145,16 +147,14 @@ button {
     background-color: #003e35;
 }
 
+@media (min-width: 768px) {
+    .interest-item p {
+        font-size: 24px;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 768px) {
+    .interest-item p {
+        font-size: 14px;
+    }
+}
